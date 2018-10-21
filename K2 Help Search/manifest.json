@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "K2 Help Search",
+    "version": "1.0",
+    "description": "Adds search of K2 Help site into the Chrome",
+    "icons":{
+        "128": "K2Logo45.png",
+        "48": "K2Logo45.png",
+        "16": "K2Logo45.png"
+    },
+    "background":{
+        "scripts": ["eventPage.js"],
+        "persistent" : false
+    },
+    "permissions":[
+        "tabs",
+        "contextMenus"
+    ]
+        
+}
